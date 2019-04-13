@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import Toutes from './routes';
 
 import "./styles.css";
 
 import Header from './components/Header';
 import Main from './pages/main';
+import Routes from './routes';
 
 const App = () => {
   return (
     <div className="App">
         <Header />
-        <Main />
+        <Routes />
       </div>
   );
 };
